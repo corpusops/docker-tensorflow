@@ -19,6 +19,16 @@ jobs:
     runs-on: ubuntu-20.04
     env: {IMAGES: "${{matrix.IMAGES}}"}
     steps:
+      # See: https://github.com/actions/virtual-environments/issues/709
+      - name: get extra space
+        run: |-
+             set -e;
+             cd /opt/hostedtoolcache
+             sudo rm -rf CodeQL PyPy go
+             cd /usr/local
+             sudo rm -rf graalvm aws-cli share/boost lib/node_modules lib/android share/vcpkg
+             cd /usr/share
+             sudo rm -rf dotnet swift az* rust* gradl* miniconda
       - name: Set vars
         run: |-
             if ( echo "$GITHUB_REF" | egrep -q "${RELEASABLE_BRANCHES}" ) \
@@ -51,10 +61,6 @@ jobs:
         run: set -e;i=$(whoami);sudo sh -c "chown -Rf $i .";
              ./main.sh refresh_corpusops;
              sudo sh -c 'apt-get update -qq && apt-get install -qqy --force-yes parallel'
-      # See: https://github.com/actions/virtual-environments/issues/709
-      - name: get extra space
-        run: set -e;
-             sudo rm -rf "/usr/local/share/boost" "$AGENT_TOOLSDIRECTORY"
       - name: refresh images
         run: set -e;if (echo $IMAGES|grep -q zleftover);then
              rm -f */*/*/Dockerfile&&${{steps.v.outputs.silent}} ./refresh_images.sh;
