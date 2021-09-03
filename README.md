@@ -5,4 +5,4 @@
 
 | original   | wrapped  |
 |------------|-----------|
-| [tensorflow/serving](https://hub.docker.com/r/tensorflow/serving)                         | [corpusops/serving](https://hub.docker.com/r/corpusops/serving)                   |
+| [tensorflow/serving](https://hub.docker.com/r/tensorflow/serving)                         | [corpusops/serving](https://hub.docker.com/r/corpusops/tensforflow-serving)                   |
