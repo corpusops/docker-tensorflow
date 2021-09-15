@@ -66,8 +66,6 @@ jobs:
       matrix:
         IMAGES:
         - "tensorflow/serving/latest"
-        - "tensorflow/serving/latest-devel"
-        - "tensorflow/serving/latest-devel-gpu"
         #- "corpusops/test/a corpusops/test/b corpusops/test/c"
         # all images that werent explicitly told to be built would be built in the next batches
         # we span them onto N jobs

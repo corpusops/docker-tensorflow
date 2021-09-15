@@ -254,6 +254,7 @@ SKIPPED_TAGS="$SKIP_TF|$SKIP_MINOR_OS|$SKIP_NODE|$SKIP_DOCKER|$SKIP_MINIO|$SKIP_
 CURRENT_TS=$(date +%s)
 IMAGES_SKIP_NS="((mailhog|postgis|pgrouting(-bare)?|^library|dejavu|(minio/(minio|mc))))"
 
+SKIPPED_TAGS="$SKIPPED_TAGS|devel"
 
 default_images="
 tensorflow/serving
@@ -280,8 +281,6 @@ MAILU_VERSiON=1.7
 
 BATCHED_IMAGES="\
 tensorflow/serving/latest\
- tensorflow/serving/latest-devel\
- tensorflow/serving/latest-devel-gpu\
  tensorflow/serving/latest-gpuu::1
 "
 SKIP_REFRESH_ANCESTORS=${SKIP_REFRESH_ANCESTORS-}
