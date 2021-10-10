@@ -254,7 +254,7 @@ SKIPPED_TAGS="$SKIP_TF|$SKIP_MINOR_OS|$SKIP_NODE|$SKIP_DOCKER|$SKIP_MINIO|$SKIP_
 CURRENT_TS=$(date +%s)
 IMAGES_SKIP_NS="((mailhog|postgis|pgrouting(-bare)?|^library|dejavu|(minio/(minio|mc))))"
 
-SKIPPED_TAGS="$SKIPPED_TAGS|devel"
+SKIPPED_TAGS="$SKIPPED_TAGS|deve|night"
 
 default_images="
 tensorflow/serving
@@ -280,8 +280,8 @@ NODE_TOP="$(echo $(find_top_node))"
 MAILU_VERSiON=1.7
 
 BATCHED_IMAGES="\
-tensorflow/serving/latest\
- tensorflow/serving/latest-gpuu::1
+tensorflow/serving/latest::1
+tensorflow/serving/latest-gpu::1
 "
 SKIP_REFRESH_ANCESTORS=${SKIP_REFRESH_ANCESTORS-}
 
