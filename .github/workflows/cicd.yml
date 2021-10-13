@@ -69,8 +69,10 @@ jobs:
       fail-fast: false
       matrix:
         IMAGES:
-        - "tensorflow/serving/latest"
-        - "tensorflow/serving/latest-gpu"
+        - "tensorflow/serving/latest tensorflow/serving/latest-gpu"
+        - "tensorflow/serving/latest-devel tensorflow/serving/latest-devel-gpu"
+        - "tensorflow/serving/nightly tensorflow/serving/nightly-gpu"
+        - "tensorflow/serving/nightly-devel tensorflow/serving/nightly-devel-gpu"
         #- "corpusops/test/a corpusops/test/b corpusops/test/c"
         # all images that werent explicitly told to be built would be built in the next batches
         # we span them onto N jobs

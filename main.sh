@@ -280,8 +280,14 @@ NODE_TOP="$(echo $(find_top_node))"
 MAILU_VERSiON=1.7
 
 BATCHED_IMAGES="\
-tensorflow/serving/latest::1
-tensorflow/serving/latest-gpu::1
+tensorflow/serving/latest\
+ tensorflow/serving/latest-gpu::2
+tensorflow/serving/latest-devel\
+ tensorflow/serving/latest-devel-gpu::2
+tensorflow/serving/nightly\
+ tensorflow/serving/nightly-gpu::2
+tensorflow/serving/nightly-devel\
+ tensorflow/serving/nightly-devel-gpu::2
 "
 SKIP_REFRESH_ANCESTORS=${SKIP_REFRESH_ANCESTORS-}
 
