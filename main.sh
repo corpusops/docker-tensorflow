@@ -254,10 +254,11 @@ SKIPPED_TAGS="$SKIP_TF|$SKIP_MINOR_OS|$SKIP_NODE|$SKIP_DOCKER|$SKIP_MINIO|$SKIP_
 CURRENT_TS=$(date +%s)
 IMAGES_SKIP_NS="((mailhog|postgis|pgrouting(-bare)?|^library|dejavu|(minio/(minio|mc))))"
 
-SKIPPED_TAGS="$SKIPPED_TAGS"
+SKIPPED_TAGS="$SKIPPED_TAGS|[0-9+\.[0-9]+\.|custom-|-rc0"
 
 default_images="
 tensorflow/serving
+tensorflow/tensorflow
 "
 
 find_top_node_() {
@@ -288,6 +289,33 @@ tensorflow/serving/nightly\
  tensorflow/serving/nightly-gpu::2
 tensorflow/serving/nightly-devel\
  tensorflow/serving/nightly-devel-gpu::2
+tensorflow/tensorflow/devel\
+ tensorflow/tensorflow/devel-gpu\
+ tensorflow/tensorflow/devel-gpu-py3\
+ tensorflow/tensorflow/devel-py3::5
+tensorflow/tensorflow/latest\
+ tensorflow/tensorflow/latest-devel\
+ tensorflow/tensorflow/latest-devel-gpu\
+ tensorflow/tensorflow/latest-devel-gpu-py3\
+ tensorflow/tensorflow/latest-devel-py3::5
+tensorflow/tensorflow/latest-gpu\
+ tensorflow/tensorflow/latest-gpu-jupyter\
+ tensorflow/tensorflow/latest-gpu-py3\
+ tensorflow/tensorflow/latest-gpu-py3-jupyter::5
+tensorflow/tensorflow/latest-jupyter\
+ tensorflow/tensorflow/latest-py3\
+ tensorflow/tensorflow/latest-py3-jupyter::5
+tensorflow/tensorflow/nightly\
+ tensorflow/tensorflow/nightly-devel\
+ tensorflow/tensorflow/nightly-devel-gpu\
+ tensorflow/tensorflow/nightly-devel-gpu-py3\
+ tensorflow/tensorflow/nightly-devel-py3::5
+tensorflow/tensorflow/nightly-gpu\
+ tensorflow/tensorflow/nightly-gpu-jupyter\
+ tensorflow/tensorflow/nightly-gpu-py3\
+ tensorflow/tensorflow/nightly-gpu-py3-jupyter\
+tensorflow/tensorflow/nightly-jupyter::5
+ tensorflow/tensorflow/nightly-py3::5
 "
 SKIP_REFRESH_ANCESTORS=${SKIP_REFRESH_ANCESTORS-}
 
