@@ -84,8 +84,7 @@ jobs:
         - "tensorflow/tensorflow/latest-gpu tensorflow/tensorflow/latest-gpu-jupyter tensorflow/tensorflow/latest-gpu-py3 tensorflow/tensorflow/latest-gpu-py3-jupyter"
         - "tensorflow/tensorflow/latest-jupyter tensorflow/tensorflow/latest-py3 tensorflow/tensorflow/latest-py3-jupyter"
         - "tensorflow/tensorflow/nightly tensorflow/tensorflow/nightly-devel tensorflow/tensorflow/nightly-devel-gpu tensorflow/tensorflow/nightly-devel-gpu-py3 tensorflow/tensorflow/nightly-devel-py3"
-        - "tensorflow/tensorflow/nightly-gpu tensorflow/tensorflow/nightly-gpu-jupyter tensorflow/tensorflow/nightly-gpu-py3"
-        - "tensorflow/tensorflow/nightly-py3"
+        - "tensorflow/tensorflow/nightly-gpu tensorflow/tensorflow/nightly-gpu-jupyter tensorflow/tensorflow/nightly-gpu-py3 tensorflow/tensorflow/nightly-py3"
         #- "corpusops/test/a corpusops/test/b corpusops/test/c"
         # all images that werent explicitly told to be built would be built in the next batches
         # we span them onto N jobs

@@ -314,7 +314,7 @@ tensorflow/tensorflow/nightly-gpu\
  tensorflow/tensorflow/nightly-gpu-jupyter\
  tensorflow/tensorflow/nightly-gpu-py3\
  tensorflow/tensorflow/nightly-gpu-py3-jupyter\
-tensorflow/tensorflow/nightly-jupyter::5
+tensorflow/tensorflow/nightly-jupyter\
  tensorflow/tensorflow/nightly-py3::5
 "
 SKIP_REFRESH_ANCESTORS=${SKIP_REFRESH_ANCESTORS-}
