@@ -1,13 +1,15 @@
 1.6.1
-1.6.1-devel-gpu 1.6.1-devel
+1.6.1-devel
+1.6.1-devel-gpu
 1.7.1
 1.7.1-devel
 1.7.1-devel-gpu
 1.8.0
 1.8.0-devel
 1.8.0-devel-gpu
-1.9.0 1.9.0-devel-gpu
+1.9.0
 1.9.0-devel
+1.9.0-devel-gpu
 1.9.0-rc2
 1.9.0-rc2-devel
 1.9.1
@@ -15,9 +17,10 @@
 1.10.0
 1.10.0-devel
 1.10.0-devel-gpu
+1.10.0-gpu
 1.10.0-rc1-devel
 1.10.1
-1.10.1-devel 1.10.0-gpu
+1.10.1-devel
 1.10.1-devel-gpu
 1.10.1-gpu
 1.11.0
@@ -28,18 +31,20 @@
 1.11.0-rc0-devel
 1.11.0-rc0-devel-gpu
 1.11.0-rc0-gpu
+1.11.0-rc1
 1.11.0-rc1-devel
-1.11.0-rc1-devel-gpu 1.11.0-rc1
+1.11.0-rc1-devel-gpu
 1.11.0-rc1-gpu
 1.11.1
 1.11.1-devel
 1.11.1-devel-gpu
+1.11.1-gpu
 1.12.0
 1.12.0-devel
 1.12.0-devel-gpu
 1.12.0-gpu
 1.12.0-rc0
-1.12.0-rc0-devel 1.11.1-gpu
+1.12.0-rc0-devel
 1.12.0-rc0-devel-gpu
 1.12.0-rc0-gpu
 1.12.3
@@ -50,32 +55,37 @@
 1.13.0-devel
 1.13.0-devel-gpu
 1.13.0-gpu
+1.13.0-rc1
 1.13.0-rc1-devel
-1.13.0-rc1-devel-gpu 1.13.0-rc1
+1.13.0-rc1-devel-gpu
 1.13.0-rc1-gpu
 1.13.1
 1.13.1-devel
-1.13.1-devel-gpu 2.0.0-gpu
+1.13.1-devel-gpu
 1.13.1-gpu
 1.14.0
-1.14.0-devel 1.14.0-rc0-gpu
+1.14.0-devel
 1.14.0-devel-gpu
 1.14.0-gpu
 1.14.0-rc0
 1.14.0-rc0-devel
 1.14.0-rc0-devel-gpu
+1.14.0-rc0-gpu
 1.15.0
 1.15.0-devel
 1.15.0-devel-gpu
 1.15.0-gpu
+1.15.0-rc2
 1.15.0-rc2-devel
-1.15.0-rc2-devel-gpu 1.15.0-rc2
+1.15.0-rc2-devel-gpu
 1.15.0-rc2-gpu
 2.0.0
 2.0.0-devel
 2.0.0-devel-gpu
+2.0.0-gpu
+2.1.0
 2.1.0-devel
-2.1.0-devel-gpu 2.1.0
+2.1.0-devel-gpu
 2.1.0-gpu
 2.1.0-rc1
 2.1.0-rc1-devel
@@ -96,39 +106,45 @@
 2.2.0-rc1
 2.2.0-rc1-devel
 2.2.0-rc1-devel-gpu
+2.2.0-rc1-gpu
 2.2.0-rc2
-2.2.0-rc2-devel 2.2.0-rc1-gpu
+2.2.0-rc2-devel
 2.2.0-rc2-devel-gpu
 2.2.0-rc2-gpu
 2.2.2
 2.2.2-devel
 2.2.2-devel-gpu
 2.2.2-gpu
+2.2.3
 2.2.3-devel
-2.2.3-devel-gpu 2.2.3
+2.2.3-devel-gpu
 2.2.3-gpu
 2.3.0
 2.3.0-devel
 2.3.0-devel-gpu
 2.3.0-gpu
+2.3.0-rc0
 2.3.0-rc0-devel
-2.3.0-rc0-devel-gpu 2.3.0-rc0
+2.3.0-rc0-devel-gpu
 2.3.0-rc0-gpu
 2.3.3
-2.3.3-devel 2.6.0-rc1-gpu
+2.3.3-devel
 2.3.3-devel-gpu
 2.3.3-gpu
+2.3.4
 2.3.4-devel
-2.3.4-devel-gpu 2.3.4
+2.3.4-devel-gpu
 2.3.4-gpu
+2.4.0
 2.4.0-devel
-2.4.0-devel-gpu 2.4.0
+2.4.0-devel-gpu
 2.4.0-gpu
 2.4.0-rc2
 2.4.0-rc2-devel
 2.4.0-rc2-devel-gpu
+2.4.0-rc2-gpu
 2.4.0-rc3
-2.4.0-rc3-devel 2.4.0-rc2-gpu
+2.4.0-rc3-devel
 2.4.0-rc3-devel-gpu
 2.4.0-rc3-gpu
 2.4.0-rc4
@@ -138,6 +154,7 @@
 2.4.1
 2.4.1-devel
 2.4.1-devel-gpu
+2.4.1-gpu
 2.4.2
 2.4.2-devel
 2.4.2-devel-gpu
@@ -151,15 +168,16 @@
 2.4.4-devel-gpu
 2.4.4-gpu
 2.5.0-rc0
-2.5.0-rc0-devel 2.4.1-gpu
+2.5.0-rc0-devel
 2.5.0-rc0-devel-gpu
 2.5.0-rc0-gpu
 2.5.0-rc1
 2.5.0-rc1-devel
 2.5.0-rc1-devel-gpu
 2.5.0-rc1-gpu
+2.5.0-rc2
 2.5.0-rc2-devel
-2.5.0-rc2-devel-gpu 2.5.0-rc2
+2.5.0-rc2-devel-gpu
 2.5.0-rc2-gpu
 2.5.0-rc3
 2.5.0-rc3-devel
@@ -168,6 +186,7 @@
 2.5.1
 2.5.1-devel
 2.5.1-devel-gpu
+2.5.1-gpu
 2.5.2
 2.5.2-devel
 2.5.2-devel-gpu
@@ -177,56 +196,64 @@
 2.5.3-devel-gpu
 2.5.3-gpu
 2.5.4
-2.5.4-devel 2.8.0-rc1-gpu
+2.5.4-devel
 2.5.4-devel-gpu
 2.5.4-gpu
 2.6.0
 2.6.0-devel
 2.6.0-devel-gpu
+2.6.0-gpu
 2.6.0-rc0
-2.6.0-rc0-devel 2.5.1-gpu
+2.6.0-rc0-devel
 2.6.0-rc0-devel-gpu
 2.6.0-rc0-gpu
 2.6.0-rc1
 2.6.0-rc1-devel
 2.6.0-rc1-devel-gpu
+2.6.0-rc1-gpu
 2.6.0-rc2
 2.6.0-rc2-devel
 2.6.0-rc2-devel-gpu
 2.6.0-rc2-gpu
+2.6.1
 2.6.1-devel
-2.6.1-devel-gpu 2.6.1
+2.6.1-devel-gpu
 2.6.1-gpu
+2.6.2
 2.6.2-devel
-2.6.2-devel-gpu 2.6.2
+2.6.2-devel-gpu
 2.6.2-gpu
 2.6.3
 2.6.3-devel
 2.6.3-devel-gpu
 2.6.3-gpu
+2.6.5
 2.6.5-devel
-2.6.5-devel-gpu 2.6.5
+2.6.5-devel-gpu
 2.6.5-gpu
 2.7.0
 2.7.0-devel
 2.7.0-devel-gpu
 2.7.0-gpu
 2.7.0-rc0
-2.7.0-rc0-devel 2.6.0-gpu
+2.7.0-rc0-devel
 2.7.0-rc0-devel-gpu
 2.7.0-rc0-gpu
+2.7.0-rc1
 2.7.0-rc1-devel
-2.7.0-rc1-devel-gpu 2.7.0-rc1
+2.7.0-rc1-devel-gpu
 2.7.0-rc1-gpu
 2.7.3
 2.7.3-devel
 2.7.3-devel-gpu
 2.7.3-gpu
+2.7.4
 2.7.4-devel
 2.7.4-devel-gpu
 2.7.4-gpu
+2.8.0
 2.8.0-devel
-2.8.0-devel-gpu 2.8.0
+2.8.0-devel-gpu
 2.8.0-gpu
 2.8.0-rc0
 2.8.0-rc0-devel
@@ -235,12 +262,13 @@
 2.8.0-rc1
 2.8.0-rc1-devel
 2.8.0-rc1-devel-gpu
+2.8.0-rc1-gpu
 2.8.2
 2.8.2-devel
 2.8.2-devel-gpu
 2.8.2-gpu
 2.8.3
-2.8.3-devel 2.7.4
+2.8.3-devel
 2.8.3-devel-gpu
 2.8.3-gpu
 2.8.4
@@ -251,11 +279,12 @@
 2.9.0-devel
 2.9.0-devel-gpu
 2.9.0-gpu
-2.9.1 2.9.1-devel
+2.9.1
+2.9.1-devel
 2.9.1-devel-gpu
 2.9.1-gpu
 2.9.2
-2.9.2-devel 2.10.0-gpu
+2.9.2-devel
 2.9.2-devel-gpu
 2.9.2-gpu
 2.9.3
@@ -265,8 +294,10 @@
 2.10.0
 2.10.0-devel
 2.10.0-devel-gpu
+2.10.0-gpu
+2.10.0-rc0
 2.10.0-rc0-devel
-2.10.0-rc0-devel-gpu 2.10.0-rc0
+2.10.0-rc0-devel-gpu
 2.10.0-rc0-gpu
 2.10.0-rc1
 2.10.0-rc1-devel
@@ -280,29 +311,32 @@
 2.10.0-rc3-devel
 2.10.0-rc3-devel-gpu
 2.10.0-rc3-gpu
+2.10.1
 2.10.1-devel
-2.10.1-devel-gpu 2.10.1
+2.10.1-devel-gpu
 2.10.1-gpu
 2.11.0
 2.11.0-devel
-2.11.0-devel-gpu latest
+2.11.0-devel-gpu
 2.11.0-gpu
 2.11.0-rc0
 2.11.0-rc0-devel
 2.11.0-rc0-devel-gpu
 2.11.0-rc0-gpu
+2.11.0-rc1
 2.11.0-rc1-devel
-2.11.0-rc1-devel-gpu 2.11.0-rc1
+2.11.0-rc1-devel-gpu
 2.11.0-rc1-gpu
 2.11.0-rc2
 2.11.0-rc2-devel
 2.11.0-rc2-devel-gpu
 2.11.0-rc2-gpu
+latest
 latest-devel
 latest-devel-gpu
 latest-gpu
+nightly
 nightlygpu
 nightly-devel
 nightly-devel-gpu
 nightly-gpu
- nightly
