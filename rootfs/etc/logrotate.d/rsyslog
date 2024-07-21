@@ -1,14 +1,34 @@
-/var/log/syslog
+# to be processed by frep
+/log/apache*/*-error.log
+/log/apache*/*-access.log
+/logs/apache*/*-error.log
+/logs/apache*/*-access.log
+/log/nginx/*-error.log
+/log/nginx/*-access.log
+/logs/nginx/*-error.log
+/logs/nginx/*-access.log
+/log/*-error.log
+/log/*-access.log
+/logs/*-error.log
+/logs/*-access.log
+/var/log/apache2/*.log
+/var/log/apache/*.log
+/var/log/haproxy/*.log
+/var/log/nginx/*.log
+/var/log/docker/longretention/*.log
 {
-        rotate 7
+        rotate 365
+        nodateext
         daily
+        size 200M
         missingok
         notifempty
-        delaycompress
         compress
+        sharedscripts
         postrotate
-                if [ -e /usr/lib/rsyslog/rsyslog-rotate ];then /usr/lib/rsyslog/rsyslog-rotate;fi
+                if [ -e /usr/lib/rsyslog/rsyslog-rotate ];then /usr/lib/rsyslog/rsyslog-rotate;else /usr/bin/killall -HUP rsyslogd;fi
         endscript
+
 }
 
 /var/log/mail.info
@@ -23,15 +43,33 @@
 /var/log/cron.log
 /var/log/debug
 /var/log/messages
+/var/log/syslog
 {
-        rotate 4
-        weekly
+        rotate 7
+        nodateext
+        daily
+        size 200M
         missingok
         notifempty
         compress
         delaycompress
         sharedscripts
         postrotate
-                if [ -e /usr/lib/rsyslog/rsyslog-rotate ];then /usr/lib/rsyslog/rsyslog-rotate;fi
+                if [ -e /usr/lib/rsyslog/rsyslog-rotate ];then /usr/lib/rsyslog/rsyslog-rotate;else /usr/bin/killall -HUP rsyslogd;fi
+        endscript
+}
+
+/var/log/docker/*.log
+{
+        rotate 4
+        nodateext
+        daily
+        size 200M
+        missingok
+        notifempty
+        compress
+        nosharedscripts
+        postrotate
+                if [ -e /usr/lib/rsyslog/rsyslog-rotate ];then /usr/lib/rsyslog/rsyslog-rotate;else /usr/bin/killall -HUP rsyslogd;fi
         endscript
 }
