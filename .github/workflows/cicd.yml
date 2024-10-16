@@ -76,7 +76,8 @@ jobs:
       matrix:
         IMAGES:
         - "tensorflow/serving/latest tensorflow/serving/latest-gpu"
-        - "tensorflow/serving/latest-devel tensorflow/serving/latest-devel-gpu"
+        - "tensorflow/serving/latest-devel"
+        - "tensorflow/serving/latest-devel-gpu"
         - "tensorflow/serving/nightly tensorflow/serving/nightly-gpu"
         - "tensorflow/serving/nightly-devel tensorflow/serving/nightly-devel-gpu"
         - "tensorflow/tensorflow/devel tensorflow/tensorflow/devel-gpu tensorflow/tensorflow/devel-gpu-py3 tensorflow/tensorflow/devel-py3"

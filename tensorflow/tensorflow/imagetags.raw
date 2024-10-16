@@ -1,6 +1,7 @@
 0.6.0
+0.6.0-devel
 0.6.0-devel-gpu
-0.6.0-gpu 0.6.0-devel
+0.6.0-gpu
 0.7.0
 0.7.0-devel
 0.7.0-devel-gpu
@@ -10,7 +11,8 @@
 0.7.1-devel-gpu
 0.7.1-gpu
 0.8.0
-0.8.0rc0-devel 0.8.0rc0
+0.8.0rc0
+0.8.0rc0-devel
 0.8.0rc0-devel-gpu
 0.8.0rc0-gpu
 0.8.0-devel
@@ -21,13 +23,16 @@
 0.9.0-devel-gpu
 0.9.0-gpu
 0.10.0
-0.10.0rc0 0.10.0rc0-devel
+0.10.0rc0
+0.10.0rc0-devel
 0.10.0rc0-devel-gpu
 0.10.0rc0-gpu
 0.10.0-devel
 0.10.0-devel-gpu
 0.10.0-gpu
-0.11.0rc0 0.11.0rc0-devel
+0.11.0
+0.11.0rc0
+0.11.0rc0-devel
 0.11.0rc0-devel-gpu
 0.11.0rc0-gpu
 0.11.0rc1
@@ -38,7 +43,7 @@
 0.11.0rc2-devel
 0.11.0rc2-devel-gpu
 0.11.0rc2-gpu
-0.11.0 0.11.0-devel
+0.11.0-devel
 0.11.0-devel-gpu
 0.11.0-gpu
 0.12.0
@@ -46,7 +51,8 @@
 0.12.0-devel-gpu
 0.12.0-devel-gpu-py3
 0.12.0-devel-py3
-0.12.0-gpu-py3 0.12.0-gpu
+0.12.0-gpu
+0.12.0-gpu-py3
 0.12.0-py3
 0.12.0-rc0
 0.12.0-rc0-devel
@@ -60,28 +66,32 @@
 0.12.0-rc1-gpu
 0.12.0-rc1-gpu-py3
 0.12.0-rc1-py3
-0.12.1 0.12.1-py3
+0.12.1
 0.12.1-devel
 0.12.1-devel-gpu
 0.12.1-devel-gpu-py3
 0.12.1-devel-py3
 0.12.1-gpu
 0.12.1-gpu-py3
+0.12.1-py3
 1.0.0
 1.0.0-alpha
-1.0.0-alpha-devel 1.0.0-alpha-devel-py3
+1.0.0-alpha-devel
 1.0.0-alpha-devel-gpu
 1.0.0-alpha-devel-gpu-py3
+1.0.0-alpha-devel-py3
 1.0.0-alpha-gpu
 1.0.0-alpha-gpu-py3
 1.0.0-alpha-py3
 1.0.0-devel
-1.0.0-devel-gpu 1.0.0-devel-gpu-py3
+1.0.0-devel-gpu
+1.0.0-devel-gpu-py3
 1.0.0-devel-py3
 1.0.0-gpu
 1.0.0-gpu-py3
 1.0.0-py3
-1.0.0-rc0 1.0.0-rc0-devel
+1.0.0-rc0
+1.0.0-rc0-devel
 1.0.0-rc0-devel-gpu
 1.0.0-rc0-devel-gpu-py3
 1.0.0-rc0-devel-py3
@@ -101,18 +111,21 @@
 1.0.0-rc2-devel-gpu
 1.0.0-rc2-devel-gpu-py3
 1.0.0-rc2-devel-py3
-1.0.0-rc2-gpu-py3 1.0.0-rc2-gpu
+1.0.0-rc2-gpu
+1.0.0-rc2-gpu-py3
 1.0.0-rc2-py3
 1.0.0.1-devel-gpu
 1.0.0.1-devel-gpu-py3
 1.0.0.1-gpu
 1.0.0.1-gpu-py3
-1.0.0.2-devel-gpu 1.0.0.2-gpu
+1.0.0.2-devel-gpu
 1.0.0.2-devel-gpu-py3
+1.0.0.2-gpu
 1.0.0.2-gpu-py3
 1.0.1
 1.0.1-devel
-1.0.1-devel-gpu 1.0.1-devel-gpu-py3
+1.0.1-devel-gpu
+1.0.1-devel-gpu-py3
 1.0.1-devel-py3
 1.0.1-gpu
 1.0.1-gpu-py3
@@ -120,7 +133,8 @@
 1.1.0
 1.1.0-devel
 1.1.0-devel-gpu
-1.1.0-devel-py3 1.1.0-devel-gpu-py3
+1.1.0-devel-gpu-py3
+1.1.0-devel-py3
 1.1.0-gpu
 1.1.0-gpu-py3
 1.1.0-py3
@@ -137,11 +151,13 @@
 1.1.0-rc1-devel-gpu
 1.1.0-rc1-devel-gpu-py3
 1.1.0-rc1-devel-py3
-1.1.0-rc1-gpu 1.1.0-rc1-gpu-py3
+1.1.0-rc1-gpu
+1.1.0-rc1-gpu-py3
 1.1.0-rc1-py3
 1.1.0-rc2
+1.1.0-rc2-devel
 1.1.0-rc2-devel-gpu
-1.1.0-rc2-devel-gpu-py3 1.1.0-rc2-devel
+1.1.0-rc2-devel-gpu-py3
 1.1.0-rc2-devel-py3
 1.1.0-rc2-gpu
 1.1.0-rc2-gpu-py3
@@ -150,10 +166,12 @@
 1.2.0-devel
 1.2.0-devel-gpu
 1.2.0-devel-gpu-py3
-1.2.0-devel-py3 1.2.0-py3
+1.2.0-devel-py3
 1.2.0-gpu
 1.2.0-gpu-py3
-1.2.0-rc0-devel 1.2.0-rc0
+1.2.0-py3
+1.2.0-rc0
+1.2.0-rc0-devel
 1.2.0-rc0-devel-gpu
 1.2.0-rc0-devel-gpu-py3
 1.2.0-rc0-devel-py3
@@ -173,29 +191,33 @@
 1.2.0-rc2-devel-gpu
 1.2.0-rc2-devel-gpu-py3
 1.2.0-rc2-devel-py3
-1.2.0-rc2-gpu 1.2.0-rc2-gpu-py3
+1.2.0-rc2-gpu
+1.2.0-rc2-gpu-py3
 1.2.0-rc2-py3
 1.2.1
 1.2.1-devel
-1.2.1-devel-gpu-py3 1.2.1-devel-gpu
+1.2.1-devel-gpu
+1.2.1-devel-gpu-py3
 1.2.1-devel-py3
 1.2.1-gpu
 1.2.1-gpu-py3
 1.2.1-py3
+1.3.0
 1.3.0-devel
 1.3.0-devel-gpu
 1.3.0-devel-gpu-py3
-1.3.0-devel-py3 1.3.0
+1.3.0-devel-py3
 1.3.0-gpu
 1.3.0-gpu-py3
 1.3.0-py3
 1.3.0-rc0
+1.3.0-rc0-devel
 1.3.0-rc0-devel-gpu
 1.3.0-rc0-devel-gpu-py3
 1.3.0-rc0-devel-py3
 1.3.0-rc0-gpu
 1.3.0-rc0-gpu-py3
-1.3.0-rc0-py3 1.3.0-rc0-devel
+1.3.0-rc0-py3
 1.3.0-rc1
 1.3.0-rc1-devel
 1.3.0-rc1-devel-gpu
@@ -204,12 +226,13 @@
 1.3.0-rc1-gpu
 1.3.0-rc1-gpu-py3
 1.3.0-rc1-py3
+1.3.0-rc2
 1.3.0-rc2-devel
 1.3.0-rc2-devel-gpu
 1.3.0-rc2-devel-gpu-py3
 1.3.0-rc2-devel-py3
 1.3.0-rc2-gpu
-1.3.0-rc2-gpu-py3 1.3.0-rc2
+1.3.0-rc2-gpu-py3
 1.3.0-rc2-py3
 1.4.0
 1.4.0-devel
@@ -221,25 +244,28 @@
 1.4.0-py3
 1.4.0-rc0
 1.4.0-rc0-devel
-1.4.0-rc0-devel-gpu 1.4.0-rc0-devel-gpu-py3
+1.4.0-rc0-devel-gpu
+1.4.0-rc0-devel-gpu-py3
 1.4.0-rc0-devel-py3
 1.4.0-rc0-gpu
 1.4.0-rc0-gpu-py3
 1.4.0-rc0-py3
 1.4.0-rc1
+1.4.0-rc1-devel
 1.4.0-rc1-devel-gpu
 1.4.0-rc1-devel-gpu-py3
-1.4.0-rc1-devel-py3 1.4.0-rc1-devel
+1.4.0-rc1-devel-py3
 1.4.0-rc1-gpu
 1.4.0-rc1-gpu-py3
 1.4.0-rc1-py3
 1.4.1
 1.4.1-devel
 1.4.1-devel-gpu
-1.4.1-devel-gpu-py3 1.4.1-py3
+1.4.1-devel-gpu-py3
 1.4.1-devel-py3
 1.4.1-gpu
 1.4.1-gpu-py3
+1.4.1-py3
 1.5.0
 1.5.0-devel
 1.5.0-devel-gpu
@@ -248,10 +274,11 @@
 1.5.0-gpu
 1.5.0-gpu-py3
 1.5.0-py3
+1.5.0-rc0
 1.5.0-rc0-devel
 1.5.0-rc0-devel-gpu
 1.5.0-rc0-devel-gpu-py3
-1.5.0-rc0-devel-py3 1.5.0-rc0
+1.5.0-rc0-devel-py3
 1.5.0-rc0-gpu
 1.5.0-rc0-gpu-py3
 1.5.0-rc0-py3
@@ -259,19 +286,22 @@
 1.5.0-rc1-devel
 1.5.0-rc1-devel-gpu
 1.5.0-rc1-devel-gpu-py3
-1.5.0-rc1-devel-py3 1.5.0-rc1-gpu
+1.5.0-rc1-devel-py3
+1.5.0-rc1-gpu
 1.5.0-rc1-gpu-py3
 1.5.0-rc1-py3
 1.5.1
+1.5.1-devel
 1.5.1-devel-gpu
 1.5.1-devel-gpu-py3
-1.5.1-devel-py3 1.5.1-devel
+1.5.1-devel-py3
 1.5.1-gpu
 1.5.1-gpu-py3
 1.5.1-py3
-1.6.0 1.6.0-devel-gpu-py3
+1.6.0
 1.6.0-devel
 1.6.0-devel-gpu
+1.6.0-devel-gpu-py3
 1.6.0-devel-py3
 1.6.0-gpu
 1.6.0-gpu-py3
@@ -281,25 +311,29 @@
 1.6.0-rc0-devel-gpu
 1.6.0-rc0-devel-gpu-py3
 1.6.0-rc0-devel-py3
-1.6.0-rc0-gpu 1.6.0-rc0-gpu-py3
+1.6.0-rc0-gpu
+1.6.0-rc0-gpu-py3
 1.6.0-rc0-py3
 1.6.0-rc1
 1.6.0-rc1-devel
 1.6.0-rc1-devel-gpu
-1.6.0-rc1-devel-gpu-py3 1.6.0-rc1-devel-py3
+1.6.0-rc1-devel-gpu-py3
+1.6.0-rc1-devel-py3
 1.6.0-rc1-gpu
 1.6.0-rc1-gpu-py3
 1.6.0-rc1-py3
+1.7.0
 1.7.0-devel
 1.7.0-devel-gpu
 1.7.0-devel-gpu-py3
 1.7.0-devel-py3
 1.7.0-gpu
 1.7.0-gpu-py3
-1.7.0-py3 1.7.0
+1.7.0-py3
 1.7.0-rc0
 1.7.0-rc0-devel
-1.7.0-rc0-devel-gpu-py3 1.7.0-rc0-devel-gpu
+1.7.0-rc0-devel-gpu
+1.7.0-rc0-devel-gpu-py3
 1.7.0-rc0-devel-py3
 1.7.0-rc0-gpu
 1.7.0-rc0-gpu-py3
@@ -318,8 +352,10 @@
 1.7.1-devel-gpu-py3
 1.7.1-devel-py3
 1.7.1-gpu
-1.7.1-gpu-py3 1.7.1-py3
-1.8.0 1.8.0-devel
+1.7.1-gpu-py3
+1.7.1-py3
+1.8.0
+1.8.0-devel
 1.8.0-devel-gpu
 1.8.0-devel-gpu-py3
 1.8.0-devel-py3
@@ -330,30 +366,34 @@
 1.8.0-rc0-devel-gpu-py3
 1.8.0-rc0-devel-py3
 1.8.0-rc0-gpu
-1.8.0-rc0-gpu-py3 1.8.0-rc0-py3
+1.8.0-rc0-gpu-py3
+1.8.0-rc0-py3
 1.8.0-rc1
 1.8.0-rc1-devel-gpu-py3
 1.8.0-rc1-devel-py3
 1.8.0-rc1-gpu
 1.8.0-rc1-gpu-py3
 1.8.0-rc1-py3
+1.9.0
 1.9.0-devel
 1.9.0-devel-gpu
 1.9.0-devel-gpu-py3
 1.9.0-devel-py3
 1.9.0-gpu
 1.9.0-gpu-py3
-1.9.0-py3 1.9.0
+1.9.0-py3
 1.9.0-rc0
+1.9.0-rc0-devel
 1.9.0-rc0-devel-gpu
 1.9.0-rc0-devel-gpu-py3
-1.9.0-rc0-devel-py3 1.9.0-rc0-devel
+1.9.0-rc0-devel-py3
 1.9.0-rc0-gpu
 1.9.0-rc0-gpu-py3
 1.9.0-rc0-py3
 1.9.0-rc1
 1.9.0-rc1-devel
-1.9.0-rc1-devel-gpu-py3 1.9.0-rc1-devel-gpu
+1.9.0-rc1-devel-gpu
+1.9.0-rc1-devel-gpu-py3
 1.9.0-rc1-devel-py3
 1.9.0-rc1-gpu
 1.9.0-rc1-gpu-py3
@@ -368,7 +408,8 @@
 1.9.0-rc2-py3
 1.10.0
 1.10.0-devel
-1.10.0-devel-gpu-py3 1.10.0-devel-gpu
+1.10.0-devel-gpu
+1.10.0-devel-gpu-py3
 1.10.0-devel-py3
 1.10.0-gpu
 1.10.0-gpu-py3
@@ -378,12 +419,14 @@
 1.10.0-rc0-devel-gpu
 1.10.0-rc0-devel-gpu-py3
 1.10.0-rc0-devel-py3
-1.10.0-rc0-gpu-py3 1.10.0-rc0-gpu
+1.10.0-rc0-gpu
+1.10.0-rc0-gpu-py3
 1.10.0-rc0-py3
 1.10.0-rc1
+1.10.0-rc1-devel
 1.10.0-rc1-devel-gpu
 1.10.0-rc1-devel-gpu-py3
-1.10.0-rc1-devel-py3 1.10.0-rc1-devel
+1.10.0-rc1-devel-py3
 1.10.0-rc1-gpu
 1.10.0-rc1-gpu-py3
 1.10.0-rc1-py3
@@ -397,34 +440,39 @@
 1.10.1-py3
 1.11.0
 1.11.0-devel
-1.11.0-devel-gpu-py3 1.11.0-devel-gpu
+1.11.0-devel-gpu
+1.11.0-devel-gpu-py3
 1.11.0-devel-py3
 1.11.0-gpu
 1.11.0-gpu-py3
 1.11.0-py3
+1.11.0-rc0
 1.11.0-rc0-devel
 1.11.0-rc0-devel-gpu
 1.11.0-rc0-devel-gpu-py3
 1.11.0-rc0-devel-py3
 1.11.0-rc0-gpu
 1.11.0-rc0-gpu-py3
-1.11.0-rc0-py3 1.11.0-rc0
+1.11.0-rc0-py3
 1.11.0-rc1
-1.11.0-rc1-devel 1.11.0-rc1-gpu
+1.11.0-rc1-devel
 1.11.0-rc1-devel-gpu
 1.11.0-rc1-devel-gpu-py3
 1.11.0-rc1-devel-py3
+1.11.0-rc1-gpu
 1.11.0-rc1-gpu-py3
 1.11.0-rc1-py3
 1.11.0-rc2
+1.11.0-rc2-devel
 1.11.0-rc2-devel-gpu
 1.11.0-rc2-devel-gpu-py3
-1.11.0-rc2-devel-py3 1.11.0-rc2-devel
+1.11.0-rc2-devel-py3
 1.11.0-rc2-gpu
 1.11.0-rc2-gpu-py3
 1.11.0-rc2-py3
 1.12.0
-1.12.0-devel-gpu 1.12.0-devel
+1.12.0-devel
+1.12.0-devel-gpu
 1.12.0-devel-gpu-py3
 1.12.0-devel-py3
 1.12.0-gpu
@@ -438,27 +486,30 @@
 1.12.0-rc0-gpu
 1.12.0-rc0-gpu-py3
 1.12.0-rc0-py3
+1.12.0-rc1
 1.12.0-rc1-devel
 1.12.0-rc1-devel-gpu
 1.12.0-rc1-devel-gpu-py3
 1.12.0-rc1-devel-py3
 1.12.0-rc1-gpu
 1.12.0-rc1-gpu-py3
-1.12.0-rc1-py3 1.12.0-rc1
+1.12.0-rc1-py3
 1.12.0-rc2
 1.12.0-rc2-devel
 1.12.0-rc2-devel-gpu
 1.12.0-rc2-devel-gpu-py3
 1.12.0-rc2-devel-py3
 1.12.0-rc2-gpu
-1.12.0-rc2-gpu-py3 1.12.0-rc2-py3
+1.12.0-rc2-gpu-py3
+1.12.0-rc2-py3
 1.12.3
 1.12.3-gpu
 1.12.3-gpu-py3
 1.12.3-py3
 1.13.0rc0
 1.13.0rc0-gpu
-1.13.0rc0-gpu-jupyter 1.13.0rc0-gpu-py3
+1.13.0rc0-gpu-jupyter
+1.13.0rc0-gpu-py3
 1.13.0rc0-gpu-py3-jupyter
 1.13.0rc0-jupyter
 1.13.0rc0-py3
@@ -467,12 +518,14 @@
 1.13.0rc1-gpu
 1.13.0rc1-gpu-jupyter
 1.13.0rc1-gpu-py3
-1.13.0rc1-gpu-py3-jupyter 1.13.0rc1-py3
+1.13.0rc1-gpu-py3-jupyter
 1.13.0rc1-jupyter
+1.13.0rc1-py3
 1.13.0rc1-py3-jupyter
 1.13.0rc2
-1.13.0rc2-gpu 1.13.0rc2-gpu-py3
+1.13.0rc2-gpu
 1.13.0rc2-gpu-jupyter
+1.13.0rc2-gpu-py3
 1.13.0rc2-gpu-py3-jupyter
 1.13.0rc2-jupyter
 1.13.0rc2-py3
@@ -485,18 +538,20 @@
 1.13.1-jupyter
 1.13.1-py3
 1.13.1-py3-jupyter
+1.13.2
 1.13.2-gpu
 1.13.2-gpu-jupyter
 1.13.2-gpu-py3
 1.13.2-gpu-py3-jupyter
-1.13.2-jupyter 1.13.2
+1.13.2-jupyter
 1.13.2-py3
 1.13.2-py3-jupyter
 1.14.0
 1.14.0-gpu
+1.14.0-gpu-jupyter
 1.14.0-gpu-py3
 1.14.0-gpu-py3-jupyter
-1.14.0-jupyter 1.14.0-gpu-jupyter
+1.14.0-jupyter
 1.14.0-py3
 1.14.0-py3-jupyter
 1.15.0
@@ -506,14 +561,16 @@
 1.15.0rc1-gpu-py3
 1.15.0rc1-gpu-py3-jupyter
 1.15.0rc1-jupyter
-1.15.0rc1-py3-jupyter 1.15.0rc1-py3
+1.15.0rc1-py3
+1.15.0rc1-py3-jupyter
 1.15.0rc2
 1.15.0rc2-gpu
 1.15.0rc2-gpu-jupyter
 1.15.0rc2-gpu-py3
 1.15.0rc2-gpu-py3-jupyter
 1.15.0rc2-jupyter
-1.15.0-gpu-jupyter 1.15.0-gpu
+1.15.0-gpu
+1.15.0-gpu-jupyter
 1.15.0-gpu-py3
 1.15.0-gpu-py3-jupyter
 1.15.0-jupyter
@@ -524,10 +581,12 @@
 1.15.2-gpu-jupyter
 1.15.2-gpu-py3
 1.15.2-gpu-py3-jupyter
+1.15.2-jupyter
 1.15.2-py3
-1.15.2-py3-jupyter 1.15.2-jupyter
+1.15.2-py3-jupyter
 1.15.3
-1.15.3-gpu-jupyter 1.15.3-gpu
+1.15.3-gpu
+1.15.3-gpu-jupyter
 1.15.3-gpu-py3
 1.15.3-gpu-py3-jupyter
 1.15.3-jupyter
@@ -536,11 +595,12 @@
 1.15.4
 1.15.4-gpu
 1.15.4-gpu-jupyter
+1.15.4-gpu-py3
 1.15.4-gpu-py3-jupyter
 1.15.4-jupyter
 1.15.4-py3
 1.15.4-py3-jupyter
-1.15.5 2.0.4
+1.15.5
 1.15.5-gpu
 1.15.5-gpu-jupyter
 1.15.5-gpu-py3
@@ -548,10 +608,12 @@
 1.15.5-jupyter
 1.15.5-py3
 1.15.5-py3-jupyter
+2.0.0
 2.0.0a0
 2.0.0a0-gpu
 2.0.0a0-gpu-jupyter
 2.0.0a0-gpu-py3
+2.0.0a0-gpu-py3-jupyter
 2.0.0a0-jupyter
 2.0.0a0-py3
 2.0.0a0-py3-jupyter
@@ -561,31 +623,35 @@
 2.0.0b0-gpu-py3
 2.0.0b0-gpu-py3-jupyter
 2.0.0b0-jupyter
-2.0.0b0-py3 2.0.0b0-py3-jupyter
+2.0.0b0-py3
+2.0.0b0-py3-jupyter
 2.0.0b1
 2.0.0b1-gpu
 2.0.0b1-gpu-jupyter
 2.0.0b1-gpu-py3
 2.0.0b1-gpu-py3-jupyter
 2.0.0b1-jupyter
-2.0.0b1-py3 2.0.0b1-py3-jupyter
-2.0.0rc0-gpu 2.0.0rc0
+2.0.0b1-py3
+2.0.0b1-py3-jupyter
+2.0.0rc0
+2.0.0rc0-gpu
 2.0.0rc0-gpu-jupyter
 2.0.0rc0-gpu-py3
 2.0.0rc0-gpu-py3-jupyter
 2.0.0rc0-jupyter
 2.0.0rc0-py3-jupyter
-2.0.0 2.0.0-py3
 2.0.0-gpu
 2.0.0-gpu-jupyter
 2.0.0-gpu-py3
 2.0.0-gpu-py3-jupyter
 2.0.0-jupyter
+2.0.0-py3
 2.0.0-py3-jupyter
 2.0.1
 2.0.1-gpu
-2.0.1-gpu-jupyter 2.0.1-gpu-py3-jupyter
+2.0.1-gpu-jupyter
 2.0.1-gpu-py3
+2.0.1-gpu-py3-jupyter
 2.0.1-jupyter
 2.0.1-py3
 2.0.1-py3-jupyter
@@ -595,9 +661,11 @@
 2.0.3-gpu-py3
 2.0.3-gpu-py3-jupyter
 2.0.3-jupyter
-2.0.3-py3 1.15.4-gpu-py3
+2.0.3-py3
 2.0.3-py3-jupyter
+2.0.4
 2.0.4-gpu
+2.0.4-gpu-jupyter
 2.0.4-gpu-py3
 2.0.4-gpu-py3-jupyter
 2.0.4-jupyter
@@ -609,20 +677,23 @@
 2.1.0rc0-gpu-jupyter
 2.1.0rc0-gpu-py3
 2.1.0rc0-gpu-py3-jupyter
-2.1.0rc0-jupyter 2.1.0rc1-gpu-py3
+2.1.0rc0-jupyter
 2.1.0rc0-py3
 2.1.0rc0-py3-jupyter
+2.1.0rc1
 2.1.0rc1-gpu
 2.1.0rc1-gpu-jupyter
+2.1.0rc1-gpu-py3
 2.1.0rc1-gpu-py3-jupyter
-2.1.0rc1-jupyter 2.1.0rc1
+2.1.0rc1-jupyter
 2.1.0rc1-py3
 2.1.0rc1-py3-jupyter
-2.1.0rc2 2.1.0rc2-jupyter
+2.1.0rc2
 2.1.0rc2-gpu
 2.1.0rc2-gpu-jupyter
 2.1.0rc2-gpu-py3
 2.1.0rc2-gpu-py3-jupyter
+2.1.0rc2-jupyter
 2.1.0rc2-py3
 2.1.0rc2-py3-jupyter
 2.1.0-custom-op-gpu-ubuntu16
@@ -632,18 +703,22 @@
 2.1.0-gpu-py3
 2.1.0-gpu-py3-jupyter
 2.1.0-jupyter
+2.1.0-py3
 2.1.0-py3-jupyter
+2.1.1
 2.1.1-gpu
 2.1.1-gpu-jupyter
 2.1.1-jupyter
 2.1.2
 2.1.2-gpu
-2.1.2-jupyter 2.1.2-gpu-jupyter
+2.1.2-gpu-jupyter
+2.1.2-jupyter
 2.2.0
 2.2.0rc0
 2.2.0rc0-gpu
-2.2.0rc0-gpu-jupyter 2.2.0rc0-gpu-py3-jupyter
+2.2.0rc0-gpu-jupyter
 2.2.0rc0-gpu-py3
+2.2.0rc0-gpu-py3-jupyter
 2.2.0rc0-jupyter
 2.2.0rc0-py3
 2.2.0rc0-py3-jupyter
@@ -652,6 +727,7 @@
 2.2.0rc1-gpu-jupyter
 2.2.0rc1-gpu-py3
 2.2.0rc1-gpu-py3-jupyter
+2.2.0rc1-jupyter
 2.2.0rc1-py3
 2.2.0rc1-py3-jupyter
 2.2.0rc2
@@ -660,37 +736,41 @@
 2.2.0rc2-gpu-py3
 2.2.0rc2-gpu-py3-jupyter
 2.2.0rc2-jupyter
-2.2.0rc2-py3 2.2.0rc1-jupyter
+2.2.0rc2-py3
 2.2.0rc2-py3-jupyter
 2.2.0rc3
+2.2.0rc3-gpu
 2.2.0rc3-gpu-jupyter
 2.2.0rc3-jupyter
-2.2.0rc4 2.2.0rc3-gpu
+2.2.0rc4
 2.2.0rc4-jupyter
-2.2.0-custom-op-gpu-ubuntu16 2.1.1
+2.2.0-custom-op-gpu-ubuntu16
 2.2.0-custom-op-ubuntu16
 2.2.0-gpu
 2.2.0-gpu-jupyter
 2.2.0-jupyter
 2.2.1
-2.2.1-gpu-jupyter 2.2.1-gpu
+2.2.1-gpu
+2.2.1-gpu-jupyter
 2.2.1-gpu-py3
 2.2.1-gpu-py3-jupyter
 2.2.1-jupyter
 2.2.1-py3
 2.2.1-py3-jupyter
-2.2.2 2.2.2-jupyter
+2.2.2
 2.2.2-gpu
 2.2.2-gpu-jupyter
 2.2.2-gpu-py3
 2.2.2-gpu-py3-jupyter
+2.2.2-jupyter
 2.2.2-py3
 2.2.2-py3-jupyter
-2.2.3 2.2.3-jupyter
+2.2.3
 2.2.3-gpu
 2.2.3-gpu-jupyter
 2.2.3-gpu-py3
 2.2.3-gpu-py3-jupyter
+2.2.3-jupyter
 2.2.3-py3
 2.2.3-py3-jupyter
 2.3.0
@@ -701,21 +781,23 @@
 2.3.0rc1
 2.3.0rc1-gpu
 2.3.0rc1-gpu-jupyter
+2.3.0rc1-jupyter
 2.3.0rc2
 2.3.0rc2-gpu
 2.3.0rc2-gpu-jupyter
-2.3.0rc2-jupyter 2.3.0rc1-jupyter
+2.3.0rc2-jupyter
 2.3.0-custom-op-gpu-ubuntu16
 2.3.0-custom-op-ubuntu16
 2.3.0-gpu
 2.3.0-gpu-jupyter
-2.3.0-jupyter 2.3.1-gpu-jupyter
+2.3.0-jupyter
 2.3.1
 2.3.1-custom-op-gpu-ubuntu16
 2.3.1-custom-op-ubuntu16
 2.3.1-gpu
+2.3.1-gpu-jupyter
 2.3.1-jupyter
-2.3.2 2.0.4-gpu-jupyter
+2.3.2
 2.3.2-gpu
 2.3.2-gpu-jupyter
 2.3.2-jupyter
@@ -727,17 +809,19 @@
 2.3.4-gpu
 2.3.4-gpu-jupyter
 2.3.4-jupyter
+2.4.0
 2.4.0rc0
 2.4.0rc0-gpu
 2.4.0rc0-gpu-jupyter
 2.4.0rc0-jupyter
 2.4.0rc1
+2.4.0rc1-gpu
 2.4.0rc1-gpu-jupyter
 2.4.0rc1-jupyter
 2.4.0rc2
 2.4.0rc2-gpu
 2.4.0rc2-gpu-jupyter
-2.4.0rc2-jupyter 2.4.0rc1-gpu
+2.4.0rc2-jupyter
 2.4.0rc3
 2.4.0rc3-gpu
 2.4.0rc3-gpu-jupyter
@@ -748,13 +832,15 @@
 2.4.0rc4-jupyter
 2.4.0-custom-op-gpu-ubuntu16
 2.4.0-custom-op-ubuntu16
-2.4.0-gpu 2.4.0
+2.4.0-gpu
 2.4.0-gpu-jupyter
 2.4.0-jupyter
 2.4.1
+2.4.1-gpu
 2.4.1-gpu-jupyter
 2.4.1-jupyter
 2.4.2
+2.4.2-gpu
 2.4.2-gpu-jupyter
 2.4.2-jupyter
 2.4.3
@@ -762,7 +848,7 @@
 2.4.3-gpu-jupyter
 2.4.3-jupyter
 2.5.0
-2.5.0rc0 2.4.1-gpu
+2.5.0rc0
 2.5.0rc0-gpu
 2.5.0rc0-gpu-jupyter
 2.5.0rc0-jupyter
@@ -772,57 +858,65 @@
 2.5.0rc1-jupyter
 2.5.0rc2
 2.5.0rc2-gpu
-2.5.0rc2-gpu-jupyter 2.5.0rc2-jupyter
+2.5.0rc2-gpu-jupyter
+2.5.0rc2-jupyter
 2.5.0rc3
 2.5.0rc3-gpu
 2.5.0rc3-gpu-jupyter
 2.5.0rc3-jupyter
 2.5.0-custom-op-gpu-ubuntu16
-2.5.0-custom-op-ubuntu16 2.5.0-gpu-jupyter
+2.5.0-custom-op-ubuntu16
 2.5.0-gpu
+2.5.0-gpu-jupyter
 2.5.0-jupyter
+2.5.1
 2.5.1-gpu
-2.5.1-gpu-jupyter 2.5.1
+2.5.1-gpu-jupyter
 2.5.1-jupyter
 2.6.0
 2.6.0rc0
 2.6.0rc0-gpu
 2.6.0rc0-gpu-jupyter
-2.6.0rc0-jupyter 2.4.2-gpu
+2.6.0rc0-jupyter
 2.6.0rc1
 2.6.0rc1-gpu
 2.6.0rc1-gpu-jupyter
 2.6.0rc1-jupyter
+2.6.0rc2
 2.6.0rc2-gpu
-2.6.0rc2-gpu-jupyter 2.6.0rc2
+2.6.0rc2-gpu-jupyter
 2.6.0rc2-jupyter
 2.6.0-gpu
 2.6.0-gpu-jupyter
 2.6.0-jupyter
 2.6.1
 2.6.1-gpu
+2.6.1-gpu-jupyter
 2.6.1-jupyter
+2.7.0
 2.7.0rc0
-2.7.0rc0-gpu 2.7.0rc0-jupyter
+2.7.0rc0-gpu
 2.7.0rc0-gpu-jupyter
+2.7.0rc0-jupyter
 2.7.0rc1
 2.7.0rc1-gpu
 2.7.0rc1-gpu-jupyter
 2.7.0rc1-jupyter
-2.7.0 2.6.1-gpu-jupyter
 2.7.0-gpu
 2.7.0-gpu-jupyter
 2.7.0-jupyter
 2.7.1
 2.7.1-gpu
-2.7.1-gpu-jupyter 2.7.1-jupyter
+2.7.1-gpu-jupyter
+2.7.1-jupyter
 2.7.2
-2.7.2-gpu 2.8.1-gpu
+2.7.2-gpu
 2.7.2-gpu-jupyter
 2.7.2-jupyter
 2.7.3
 2.7.3-gpu
 2.7.3-gpu-jupyter
+2.7.3-jupyter
 2.7.4
 2.7.4-gpu
 2.7.4-gpu-jupyter
@@ -832,7 +926,7 @@
 2.8.0rc0-gpu
 2.8.0rc0-gpu-jupyter
 2.8.0rc0-jupyter
-2.8.0rc1 nightly-custom-op-gpu-ubuntu16
+2.8.0rc1
 2.8.0rc1-gpu
 2.8.0rc1-gpu-jupyter
 2.8.0rc1-jupyter
@@ -840,13 +934,15 @@
 2.8.0-gpu-jupyter
 2.8.0-jupyter
 2.8.1
+2.8.1-gpu
 2.8.1-gpu-jupyter
 2.8.1-jupyter
 2.8.2
-2.8.2-gpu 2.7.3-jupyter
+2.8.2-gpu
 2.8.2-gpu-jupyter
 2.8.2-jupyter
-2.8.3-gpu 2.8.3
+2.8.3
+2.8.3-gpu
 2.8.3-gpu-jupyter
 2.8.3-jupyter
 2.8.4
@@ -859,9 +955,10 @@
 2.9.0rc0-gpu-jupyter
 2.9.0rc0-jupyter
 2.9.0rc1
+2.9.0rc1-gpu
 2.9.0rc1-gpu-jupyter
 2.9.0rc1-jupyter
-2.9.0rc2 2.9.0rc1-gpu
+2.9.0rc2
 2.9.0rc2-gpu
 2.9.0rc2-gpu-jupyter
 2.9.0rc2-jupyter
@@ -878,9 +975,11 @@
 2.9.2-jupyter
 2.9.3
 2.9.3-gpu
+2.9.3-gpu-jupyter
 2.9.3-jupyter
 2.10.0
-2.10.0rc0-gpu 2.10.0rc0
+2.10.0rc0
+2.10.0rc0-gpu
 2.10.0rc0-gpu-jupyter
 2.10.0rc0-jupyter
 2.10.0rc1
@@ -889,58 +988,158 @@
 2.10.0rc1-jupyter
 2.10.0rc2
 2.10.0rc2-gpu
+2.10.0rc2-gpu-jupyter
 2.10.0rc2-jupyter
-2.10.0rc3 2.10.0rc2-gpu-jupyter
+2.10.0rc3
 2.10.0rc3-gpu
 2.10.0rc3-gpu-jupyter
 2.10.0rc3-jupyter
 2.10.0-gpu
+2.10.0-gpu-jupyter
 2.10.0-jupyter
 2.10.1
 2.10.1-gpu
 2.10.1-gpu-jupyter
-2.10.1-jupyter 2.9.3-gpu-jupyter
+2.10.1-jupyter
 2.11.0
 2.11.0rc0
 2.11.0rc0-gpu
 2.11.0rc0-gpu-jupyter
-2.11.0rc0-jupyter 2.10.0-gpu-jupyter
+2.11.0rc0-jupyter
 2.11.0rc1
 2.11.0rc1-gpu
 2.11.0rc1-gpu-jupyter
 2.11.0rc1-jupyter
 2.11.0rc2
 2.11.0rc2-gpu
-2.11.0rc2-gpu-jupyter 2.11.0rc2-jupyter
+2.11.0rc2-gpu-jupyter
+2.11.0rc2-jupyter
 2.11.0-gpu
 2.11.0-gpu-jupyter
 2.11.0-jupyter
+2.11.1
+2.11.1-gpu
+2.11.1-gpu-jupyter
+2.11.1-jupyter
+2.12.0
+2.12.0rc0
+2.12.0rc0-gpu
+2.12.0rc0-gpu-jupyter
+2.12.0rc0-jupyter
+2.12.0rc1
+2.12.0rc1-gpu
+2.12.0rc1-gpu-jupyter
+2.12.0rc1-jupyter
+2.12.0-gpu
+2.12.0-gpu-jupyter
+2.12.0-jupyter
+2.13.0
+2.13.0rc0
+2.13.0rc0-gpu
+2.13.0rc0-gpu-jupyter
+2.13.0rc0-jupyter
+2.13.0rc1
+2.13.0rc1-gpu
+2.13.0rc1-gpu-jupyter
+2.13.0rc1-jupyter
+2.13.0rc2
+2.13.0rc2-gpu
+2.13.0rc2-gpu-jupyter
+2.13.0rc2-jupyter
+2.13.0-gpu
+2.13.0-gpu-jupyter
+2.13.0-jupyter
+2.14.0
+2.14.0rc0
+2.14.0rc0-gpu
+2.14.0rc0-gpu-jupyter
+2.14.0rc0-jupyter
+2.14.0rc1
+2.14.0rc1-gpu
+2.14.0rc1-gpu-jupyter
+2.14.0rc1-jupyter
+2.14.0-gpu
+2.14.0-gpu-jupyter
+2.14.0-jupyter
+2.15.0
+2.15.0.post1
+2.15.0rc0
+2.15.0rc0-gpu
+2.15.0rc0-gpu-jupyter
+2.15.0rc0-jupyter
+2.15.0rc1
+2.15.0rc1-gpu
+2.15.0rc1-gpu-jupyter
+2.15.0rc1-jupyter
+2.15.0-gpu
+2.15.0-gpu-jupyter
+2.15.0-jupyter
+2.15.0.post1-gpu
+2.15.0.post1-gpu-jupyter
+2.15.0.post1-jupyter
+2.16.0rc0
+2.16.0rc0-gpu
+2.16.0rc0-gpu-jupyter
+2.16.0rc0-jupyter
+2.16.1
+2.16.1-gpu
+2.16.1-gpu-jupyter
+2.16.1-jupyter
+2.16.2
+2.16.2-gpu
+2.16.2-gpu-jupyter
+2.16.2-jupyter
+2.17.0
+2.17.0rc0
+2.17.0rc0-gpu
+2.17.0rc0-gpu-jupyter
+2.17.0rc0-jupyter
+2.17.0rc1
+2.17.0rc1-gpu
+2.17.0rc1-gpu-jupyter
+2.17.0rc1-jupyter
+2.17.0-gpu
+2.17.0-gpu-jupyter
+2.17.0-jupyter
+2.18.0rc0
+2.18.0rc0-gpu
+2.18.0rc0-gpu-jupyter
+2.18.0rc0-jupyter
+2.18.0rc1
+2.18.0rc1-gpu
+2.18.0rc1-gpu-jupyter
+2.18.0rc1-jupyter
 custom-op
-custom-op-gpu 2.0.0a0-gpu-py3-jupyter
+custom-op-gpu
 custom-op-gpu-ubuntu14
 custom-op-gpu-ubuntu16
 custom-op-gpu-ubuntu16-cuda10.0
 custom-op-ubuntu14
 custom-op-ubuntu16
 devel
+devel-gpu
 devel-gpu-py3
 devel-py3
+latest
 latest-devel
 latest-devel-gpu
-latest-devel-gpu-py3 latest-devel-py3
-latest-gpu latest
+latest-devel-gpu-py3
+latest-devel-py3
+latest-gpu
 latest-gpu-jupyter
 latest-gpu-py3
-latest-gpu-py3-jupyter 2.1.0-py3
+latest-gpu-py3-jupyter
 latest-jupyter
 latest-py3
 latest-py3-jupyter
 latest-rc0
-latest-rc0-devel-gpu latest-rc0-devel
+latest-rc0-devel
+latest-rc0-devel-gpu
 latest-rc0-gpu
 nightly
 nightly-custom-op
 nightly-custom-op-gpu-ubuntu14
+nightly-custom-op-gpu-ubuntu16
 nightly-custom-op-gpu-ubuntu16-cuda10.0
 nightly-custom-op-gpu-ubuntu16-cuda10.1
 nightly-custom-op-ubuntu14
@@ -959,8 +1158,8 @@ nightly-py3-jupyter
 r0.9
 r0.9rc0
 r0.9rc0-devel
-r0.9rc0-gpu r0.9rc0-devel-gpu
+r0.9rc0-devel-gpu
+r0.9rc0-gpu
 r0.9-devel
 r0.9-devel-gpu
 r0.9-gpu
- devel-gpu
