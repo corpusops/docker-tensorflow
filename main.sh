@@ -287,8 +287,8 @@ MAILU_VERSiON=1.7
 BATCHED_IMAGES="\
 tensorflow/serving/latest\
  tensorflow/serving/latest-gpu::2
-tensorflow/serving/latest-devel\
- tensorflow/serving/latest-devel-gpu::2
+tensorflow/serving/latest-devel::2
+tensorflow/serving/latest-devel-gpu::2
 tensorflow/serving/nightly\
  tensorflow/serving/nightly-gpu::2
 tensorflow/serving/nightly-devel\

@@ -1,9 +1,10 @@
-FROM tensorflow/serving:latest
+FROM tensorflow/serving:latest AS final
 ARG DO_UPDATE=y
 ARG NONINTERACTIVE=y
+ARG DEBIAN_FRONTEND=noninteractive
 ARG INSTALL_DEFAULT_LOCALE="fr_FR.UTF-8"
 ARG EXTRA_FILES_LIST=""
-ARG COPS_SYSTEM=${_cops_SYSTEM}
+ARG COPS_SYSTEM=${_cops_SYSTEM-}
 ARG FOREGO_RELEASE=latest
 ARG REMCO_RELEASE=latest
 ARG GOSU_RELEASE=latest
@@ -93,4 +94,5 @@ RUN sh -c 'set -ex \
     && ./${_cops_SYSTEM}_clean.sh \
     && ./common_clean.sh \
     && cd / && rm -rf /tmp/corpusopssteroids /var/cache/apk/* /var/lib/apt/lists/*'
+ARG DOCKER_IMAGES_COMMIT="$DOCKER_IMAGES_COMMIT"
 LABEL com.github.corpusops.docker-images-commit="$DOCKER_IMAGES_COMMIT"
